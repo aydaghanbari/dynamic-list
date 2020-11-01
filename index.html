@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+	<body>
+		<form>
+			<label for="fname">First name:</label><br />
+			<input type="text" id="fname" /><br />
+			<label for="lname">Last name:</label><br />
+			<input type="text" id="lname" /><br />
+			<label for="age">Age:</label><br />
+			<input type="text" id="age" /><br />
+			<label for="age">Job:</label><br />
+			<input type="text" id="job" /><br />
+			<input type="button" onclick="personInfo()" value="Add" /></br>
+			<input type="button" onclick="jobSearch()" value="Search" />
+			<input type="text" id="searchValue"/>
+		</form>
+		<table id="personTable">
+			<tr>
+				<th>First name</th>
+				<th>Last name</th>
+				<th>Age</th>
+				<th>Job</th>
+				<th>Id</th>
+			</tr>
+        </table>
+        <script src="javaScripts.js"></script>
+	</body>
+</html>
